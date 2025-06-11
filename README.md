@@ -1,1 +1,0 @@
-# License_Plate_Detection_using_YOLOv8
