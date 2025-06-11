@@ -30,10 +30,7 @@ This project focuses on detecting Indian vehicle license plates using the YOLOv8
    ```bash
    yolo detect train data=data.yaml model=yolov8s.pt epochs=50 imgsz=640
 
-
-
-
- ##Results
+## Results
 ✅ Precision: ~99%
 
 ✅ Recall: ~97%
