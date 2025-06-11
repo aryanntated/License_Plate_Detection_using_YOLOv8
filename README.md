@@ -6,7 +6,7 @@ This project focuses on detecting Indian vehicle license plates using the YOLOv8
 
 ## 📁 Dataset
 
-- **Source:** [Indian Vehicle License Plate Dataset - Kaggle](https://www.kaggle.com/datasets/).
+- **Source:** [Indian Vehicle License Plate Dataset - Kaggle](https://www.kaggle.com/datasets/saisirishan/indian-vehicle-dataset/data).
 - **Images:** 600 real-world images of vehicles registered in different Indian states.
 - **Annotations:** The original dataset lacked annotations, so I manually annotated each image using [Roboflow](https://roboflow.com/).
 - **Export Format:** YOLOv8-compatible format (`images/`, `labels/`, `data.yaml`).
