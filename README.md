@@ -31,14 +31,4 @@ This project focuses on detecting Indian vehicle license plates using the YOLOv8
    yolo detect train data=data.yaml model=yolov8s.pt epochs=50 imgsz=640
 
 ## Results
-✅ Precision: ~99%
-
-✅ Recall: ~97%
-
-✅ mAP@0.5: ~98%
-
-✅ mAP@0.5:0.95: ~80%
-
-✅ F1 Score Curve: Stable and high throughout training (see plot below)
-
-<p align="center"> <img src="path_to_results_image.png" alt="Training Metrics"> </p>
+<p align="center"> <img src="runs/runs/detect/train/results.png" alt="Training Metrics"> </p>
