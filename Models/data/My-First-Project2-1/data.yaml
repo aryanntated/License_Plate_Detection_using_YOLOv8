@@ -1,0 +1,12 @@
+names:
+- licenseplate
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: my-first-project2-lxjmd
+  url: https://universe.roboflow.com/test-1tja4/my-first-project2-lxjmd/dataset/1
+  version: 1
+  workspace: test-1tja4
+test: ../train/images
+train: ../train/images
+val: ../train/images
