@@ -116,7 +116,7 @@ def read_license_plate(license_plate_crop):
         tuple: Tuple containing the formatted license plate text and its confidence score.
     """
     
-    return None, None
+    return 0, 0
 
 
 def get_car(license_plate, vehicle_track_ids):
@@ -131,4 +131,4 @@ def get_car(license_plate, vehicle_track_ids):
         tuple: Tuple containing the vehicle coordinates (x1, y1, x2, y2) and ID.
     """
     
-    return 0, 0, 0, 0
+    return 0, 0, 0, 0, 0
